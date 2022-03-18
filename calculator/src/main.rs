@@ -1,3 +1,6 @@
+use std::env::{args, Args};
+
 fn main() {
-    println!("Hello, world!");
+    let args: Args = args();
+    print!("Your command line input is {:?}", args);
 }
