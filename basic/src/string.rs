@@ -6,5 +6,6 @@ pub fn run() {
     // two ways to add additional on top of expandable string
     expandable_string.push_str(" with ending ");
     expandable_string.push('\u{1F600}');
-    println!("{:?}", (hello, expandable_string));
+    let size = expandable_string.len();
+    println!("{:?}", (hello, expandable_string, size));
 }
