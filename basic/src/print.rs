@@ -13,4 +13,7 @@ pub fn run() {
 
     // Placeholder trait
     println!("Binary is {0:b}, Hex {0:x}, Octal {0:o}", 10);
+
+    // placeholder with trait
+    println!("Prety printing {:?}", ("Hasan", 32, "male"));
 }
