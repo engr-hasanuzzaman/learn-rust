@@ -8,4 +8,10 @@ pub fn run() {
     expandable_string.push('\u{1F600}');
     let size = expandable_string.len();
     println!("{:?}", (hello, expandable_string, size));
+
+    let mut str = String::with_capacity(10);
+    str.push('a');
+    str.push('b');
+    assert_eq!(str.len(), 2);
+    assert_eq!(str.capacity(), 10);
 }
