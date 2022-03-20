@@ -15,4 +15,9 @@ pub fn run() {
     for num in a.iter() {
         println!("Number is {}", num);
     }
+
+    for num in a.iter_mut() {
+        *num *= 4;
+    }
+    println!("After mutating array is {:?}", a);
 }
