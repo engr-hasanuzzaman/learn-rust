@@ -10,4 +10,9 @@ pub fn run() {
     println!("array size is {:?}", a.len());
     println!("array memo size is {:?}",std::mem::size_of_val(&a));
     println!("array slicing is {:?}", &a[0..2]);
+    a.pop();
+    a.pop();
+    for num in a.iter() {
+        println!("Number is {}", num);
+    }
 }
