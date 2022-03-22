@@ -7,7 +7,8 @@
 // mod vector;
 // mod conditionals;
 // mod loops;
-mod fun;
+// mod fun; 
+mod structs;
 
 fn main() {
     // print::run();
@@ -19,5 +20,6 @@ fn main() {
     // vector::run();
     // conditionals::run();
     // loops::run();
-    fun::run();
+    // fun::run();
+    structs::run();
 }
